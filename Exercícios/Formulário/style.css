@@ -45,8 +45,16 @@ form {
     height: 50px;
     font-size: x-large;
     color: yellow;
-    background-color: rgba(68, 1, 131, 0.8);
+    background-color: rgba(68, 1, 131, 0.5);
     border: none;
+}
+
+#confirmar:hover {
+    background-color: rgba(68, 1, 131, 0.7);
+}
+
+#confirmar:active {
+    background-color: rgba(68, 1, 131, 0.9);
 }
 
 .resultado {
